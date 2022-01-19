@@ -1,0 +1,11 @@
+{
+	"api": "api",
+	"secret": "secret",
+	"timezone": "Asia/Jakarta",
+	"max_pos": 10,
+	"margin": 50,
+	"tp_roe": 50,
+	"sl_roe": 50,
+	"whitelist": ["HsakaTrades"],
+	"endpoint": "127.0.0.1:8080"
+}
