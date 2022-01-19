@@ -38,10 +38,7 @@ def Banner(config):
     print(Fore.WHITE+Style.BRIGHT+'    /`\\_`>  <_/ \\   '+Fore.WHITE+''+Fore.YELLOW+'   Max Positions  '+Fore.WHITE+': '+max_pos)
     print(Fore.WHITE+Style.BRIGHT+"    \\__/'---'\\__/   "+Fore.WHITE+""+Fore.YELLOW+"   Margin\t      "+Fore.WHITE+': $'+margin)
     print('\n\n         It is end user full responsibility for\n       any loss from any trade taken by this bot')
-    #print("\n")
     print('   '+'_'*50+"\n\n")
-    
-    #print(Fore.YELLOW+"DISCLAIMER : Dev not responsible for any loss from trade taken by this bot.\n\n")
 
 def CurrentTime():
 	config = open('config.json').read()
@@ -211,7 +208,6 @@ def MoneyMaker(username, config, first=True):
 			tweet_link = line[2]
 			tweet_image = line[3]
 			time_check =  TimeValidator(tweet_time,username,tweet_content)
-			#print(username,'->',time_check)
 			if time_check and first:
 				#print(username,'-> masok')
 				pair = PairExtractor(tweet_content)
