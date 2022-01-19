@@ -1,4 +1,4 @@
-# Tsar Bot
+# Tsar Bot - Crypto Sentiment Bot
 ![](https://i.ibb.co/3vfVwXs/asd.jpg)
 
 Tsar Bot is a Twitter Crypto Sentiment Bot that have ability to make a trade based on influencers tweets. This bot using a project called [Nitter](https://github.com/zedeus/nitter "Nitter") - an twitter like website as a source to scrape twitter without any limit. For decision making, this bot using Vader Lexicon via NLTK to rate tweets polarity.
@@ -20,7 +20,9 @@ Official Binance python module have a bug on cancel order so you need to install
     
 #### 3. Bot Installations
 Install required module:
-`pip3 install bs4 pytz vaderSentiment nltk colorama pyarmor`
+
+
+    pip3 install bs4 pytz vaderSentiment nltk colorama
 
 Install Vader Lexicon:
 ```bash
@@ -41,7 +43,6 @@ nltk.download('vader_lexicon')
 
 # Disclaimer
 I'm not responsible for any loss from trade taken by this bot. Run this bot with caution
-
 
 # Get in touch & Donation
 
