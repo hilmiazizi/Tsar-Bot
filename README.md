@@ -40,6 +40,7 @@ nltk.download('vader_lexicon')
 - You can set TP/SL to 0 if you dont want to have TP/SL
 - Dont forget to enable Futures while making API on binance
 - Please use Nitter version from specific commit that i  have mentioned
+- Fill endpoint with Nitter url that you've deployed before
 
 # Disclaimer
 I'm not responsible for any loss from trade taken by this bot. Run this bot with caution
