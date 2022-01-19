@@ -3,7 +3,7 @@
 
 Tsar Bot is a Twitter Crypto Sentiment Bot that have ability to make a trade based on influencers tweets. This bot using a project called [Nitter](https://github.com/zedeus/nitter "Nitter") - an twitter like website as a source to scrape twitter without any limit. For decision making, this bot using Vader Lexicon via NLTK to rate tweets polarity.
 
-# Instalation
+# Installation
 #### 1. Nitter Installation
 This bot use Nitter version from this specific commit [25191f7](https://github.com/zedeus/nitter/commit/25191f7c40efaa563d098092d04d6290affe28ba "25191f7")  because it still have full time format rather than HH:MM format from latest version. Please follow installation instructions from the project github page [here](https://github.com/zedeus/nitter "here"). If you dont want to run Nitter as service, you can simply run it with session manager like [screen](https://linuxize.com/post/how-to-use-linux-screen/ "screen").
 ****Do not use public instances, you need to install by your self for time consistancy***
@@ -18,7 +18,7 @@ Official Binance python module have a bug on cancel order so you need to install
     python3 setup.py install
     cd ../ && rm -rf binan*
     
-#### 3. Bot Installations
+#### 3. Bot Installation
 Install required module:
 
 
