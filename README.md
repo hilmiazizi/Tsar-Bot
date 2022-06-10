@@ -50,5 +50,5 @@ I'm not responsible for any loss from trade taken by this bot. Run this bot with
 
     This is a free & open source program but you can show some support here:
     BEP20 - 0xc7083befcde51fb2ab76f3a5d50f5ae27a4083bd
-You can get in touch with me on twitter [@monkasalami](https://twitter.com/monkasalami "@monkasalami") and @tsar_putin on telegram.
+You can get in touch with me on twitter [@monkasalami](https://twitter.com/monkasalami "@monkasalami").
 
