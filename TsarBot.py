@@ -67,13 +67,13 @@ def Scrape(username, endpoint):
 	try:
 		response = requests.get('http://'+endpoint+'/'+username, headers=headers, verify=False)
 		if ' UTC">' in response.text:
-			Scrape(username)
+			Scrape(username,endpoint)
 		elif '<div class="tweet-stats">' in response.text:
 			return response.text
 		else:
-			Scrape(username)
+			Scrape(username,endpoint)
 	except Exception as e:
-		Scrape(username)
+		Scrape(username,endpoint)
 	
 	
 
@@ -289,7 +289,7 @@ for i in range(0,3):
 			MoneyMaker(line.rstrip(),config,False)
 	print(" .",end='')
 		
-exit()
+
 
 print('\n'+OutputFormat("info")+"Latest tweets recorded, waiting for new tweets")
 if not os.path.isfile("result.csv"):
