@@ -15,7 +15,7 @@ Tsar Bot is a Twitter Crypto Sentiment Bot that have ability to make a trade bas
 In this step, nitter will be installed using tmux session manager to keep it running. Nitter will run on yourIP:8080 as your endpoint
 
 
-    https://github.com/hilmiazizi/nitter.git
+    git clone https://github.com/hilmiazizi/nitter.git
     cd nitter
     nimble build -d:release
     nimble scss
