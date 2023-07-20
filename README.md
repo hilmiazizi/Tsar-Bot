@@ -1,4 +1,11 @@
-# Tsar Bot - Crypto Sentiment Bot
+# Update Regarding Twitter New Policy
+### Due to new twitter policy, it seems like nitter has much problem going on and being not reliable to use for this bot. Thats policy mark the end of this bot, buying twitter API is not viable options. Therefore, i will archive this repo in hope that twitter will reverse its decision. I will revive this bot if there any options available.
+<br>
+<br>
+<br>
+<br>
+
+## Tsar Bot - Crypto Sentiment Bot
 ![](https://i.ibb.co/3vfVwXs/asd.jpg)
 
 Tsar Bot is a Twitter Crypto Sentiment Bot that have ability to make a trade based on influencers tweets. This bot using a project called [Nitter](https://github.com/zedeus/nitter "Nitter") - an twitter like website as a source to scrape twitter without any limit. For decision making, this bot using Vader Lexicon via NLTK to rate tweets polarity.
